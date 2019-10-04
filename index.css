@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+html,
+body {
+  font-family: "Press Start 2P", Tahoma, sans-serif;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  background-color: #024f4f;
+  text-align: center;
+  color: white;
+}
+
+.message {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.message-body {
+  margin: 1rem;
+  padding: 0.25rem 1rem;
+  width: 100%;
+  background-color: #007a7c1f;
+  border: 1px solid #007a7c;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 22.5%;
+  height: 30vh;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #007a7c1f;
+}
+
+#wwcodemnl {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-image: linear-gradient(white 1%, gold 50%, orange);
+  border-radius: 150px;
+  border: 2px solid orange;
+  position: relative;
+}
+
+#wwcodemnl:before {
+  content: " ";
+  position: absolute;
+  width: 37px;
+  height: 8px;
+  background-color: saddlebrown;
+  box-shadow: 50px 0px 0 saddlebrown;
+  border-radius: inherit;
+  left: 30px;
+  bottom: 80px;
+  z-index: 1;
+}
+
+#wwcodemnl:after {
+  content: " ";
+  width: 85px;
+  height: 8px;
+  background-color: saddlebrown;
+  border-radius: inherit;
+  position: absolute;
+  left: 30px;
+  bottom: 45px;
+  z-index: 1;
+}
