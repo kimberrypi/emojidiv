@@ -14,14 +14,14 @@ body {
   align-items: center;
   width: 100%;
   height: 15%;
-  background-color: #024f4f;
+  background-color: #25274d;
   text-align: center;
   color: white;
 }
 
 .message {
   display: flex;
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -29,8 +29,8 @@ body {
   margin: 1rem;
   padding: 0.25rem 1rem;
   width: 100%;
-  background-color: #007a7c1f;
-  border: 1px solid #007a7c;
+  background-color: #25274d1f;
+  border: 1px solid #4648661f;
   border-radius: 10px;
 }
 
@@ -52,6 +52,10 @@ body {
   margin: 5px;
   padding: 5px;
   border: 1px solid #007a7c1f;
+}
+
+.is-hidden {
+  display: none !important;
 }
 
 #wwcodemnl {
