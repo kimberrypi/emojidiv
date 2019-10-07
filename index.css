@@ -37,7 +37,6 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: flex-start;
   justify-content: center;
   width: 100%;
 }
@@ -129,4 +128,19 @@ body {
   left: 70px;
   bottom: 30px;
   z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .message {
+    flex-direction: column;
+  }
+  .message-body {
+    width: auto;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .container > div {
+    width: auto;
+  }
 }
