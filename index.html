@@ -1,132 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link type="text/css" rel="stylesheet" href="index.css" />
-    <title>EmojiDIV</title>
-  </head>
 
-  <body>
-    <!-- Guidelines -->
-    <div class="hero">
-      <h1>Emoji DIV</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link type="text/css" rel="stylesheet" href="index.css" />
+  <title>EmojiDIV</title>
+</head>
+
+<body>
+  <!-- Guidelines -->
+  <div class="hero">
+    <h1>Emoji DIV</h1>
+    <p>
+      A Hacktoberfest Project. (inspired by
+      <a href="https://a.singlediv.com">a.single.div</a> and
+      <a href="https://www.chenhuijing.com/#👟">@hj_chen</a> )
+    </p>
+  </div>
+  <div class="message">
+    <div class="message-body">
+      <h3>GUIDELINES:</h3>
+      <ol>
+        <li>
+          <a href="https://github.com/kimberrypi/emojidiv">Fork this repository.</a>
+        </li>
+        <li>Create a div using your name as the ID.</li>
+        <li>Select an emoji to make.</li>
+        <li>
+          Write a single div representation of your emoji. You can see a lot
+          of emojis <a href="https://getemoji.com">here</a>.
+        </li>
+        <li>
+          Create a branch, push your work and
+          <a href="https://github.com/kimberrypi/emojidiv/pulls">create a pull request</a>.
+        </li>
+        <li>Most importantly, enjoy!</li>
+      </ol>
+    </div>
+    <div class="message-body">
+      <h3>Cheat Sheet:</h3>
+      <ol>
+        <li>
+          Create a branch: <br />
+          <code>git checkout -b {branch-name} </code>
+        </li>
+        <li>
+          Commit a branch: <br />
+          <code>git add . <br />
+            git commit -m "add an emoji"
+          </code>
+        </li>
+        <li>
+          Push a branch to remote: <br />
+          <code>git push origin {branch-name} </code>
+        </li>
+      </ol>
+    </div>
+  </div>
+  <!-- End of Guidelines -->
+  <div class="container">
+    <div class="emoji">
+      Copy the div with class emoji and start drawing your chosen emoji with
+      CSS! Don't forget to add your name!
+    </div>
+
+    <!-- Start of emoji divs -->
+    <div class="emoji">
+      <div id="kimberrypi"></div>
       <p>
-        A Hacktoberfest Project. (inspired by
-        <a href="https://a.singlediv.com">a.single.div</a> and
-        <a href="https://www.chenhuijing.com/#👟">@hj_chen</a> )
+        by
+        <a href="https://twitter.com/kimberrypi" target="_blank">@kimberrypi</a>
       </p>
     </div>
-    <div class="message">
-      <div class="message-body">
-        <h3>GUIDELINES:</h3>
-        <ol>
-          <li>
-            <a href="https://github.com/kimberrypi/emojidiv"
-              >Fork this repository.</a
-            >
-          </li>
-          <li>Create a div using your name as the ID.</li>
-          <li>Select an emoji to make.</li>
-          <li>
-            Write a single div representation of your emoji. You can see a lot
-            of emojis <a href="https://getemoji.com">here</a>.
-          </li>
-          <li>
-            Create a branch, push your work and
-            <a href="https://github.com/kimberrypi/emojidiv/pulls"
-              >create a pull request</a
-            >.
-          </li>
-          <li>Most importantly, enjoy!</li>
-        </ol>
-      </div>
-      <div class="message-body">
-        <h3>Cheat Sheet:</h3>
-        <ol>
-          <li>
-            Create a branch: <br />
-            <code>git checkout -b {branch-name} </code>
-          </li>
-          <li>
-            Commit a branch: <br />
-            <code
-              >git add . <br />
-              git commit -m "add an emoji"
-            </code>
-          </li>
-          <li>
-            Push a branch to remote: <br />
-            <code>git push origin {branch-name} </code>
-          </li>
-        </ol>
-      </div>
+
+    <div class="emoji">
+      <div id="matthewesp"></div>
+      <p>
+        by
+        <a href="https://twitter.com/matthewesp" target="_blank">@matthewesp</a>
+      </p>
     </div>
-    <!-- End of Guidelines -->
-    <div class="container">
-      <div class="emoji">
-        Copy the div with class emoji and start drawing your chosen emoji with
-        CSS! Don't forget to add your name!
-      </div>
 
-      <!-- Start of emoji divs -->
-      <div class="emoji">
-        <div id="kimberrypi"></div>
-        <p>
-          by
-          <a href="https://twitter.com/kimberrypi" target="_blank"
-            >@kimberrypi</a
-          >
-        </p>
-      </div>
-
-      <div class="emoji">
-        <div id="matthewesp"></div>
-        <p>
-          by
-          <a href="https://twitter.com/matthewesp" target="_blank"
-            >@matthewesp</a
-          >
-        </p>
-      </div>
-
-      <div class="emoji">
-        <div id="quintanilhaedu"></div>
-        <p>
-          by
-          <a href="https://github.com/quintanilhaedu" target="_blank"
-            >@quintanilhaedu</a
-          >
-        </p>
-      </div>
-
-      <div class="emoji">
-        <div id="virus200"></div>
-        <p>
-          by
-          <a href="https://twitter.com/codentacos" target="_blank"
-            >@codentacos</a
-          >
-        </p>
-      </div>
-      <!-- End of emoji divs -->
-
-      <!-- Remove is-hidden and copy -->
-      <div class="emoji is-hidden">
-        <div id="your-username"></div>
-        <p>CSS emoji by {your username}</p>
-      </div>
-      <!-- up to here and paste to the next line. -->
-      <div class="emoji">
-        <div id="botticelli13"></div>
-        <p>
-          by
-          <a href="https://github.com/Botticelli13" target="_blank"
-            >Botticelli13</a
-          >
-        </p>
-      </div>
+    <div class="emoji">
+      <div id="quintanilhaedu"></div>
+      <p>
+        by
+        <a href="https://github.com/quintanilhaedu" target="_blank">@quintanilhaedu</a>
+      </p>
     </div>
-  </body>
+
+    <div class="emoji">
+      <div id="virus200"></div>
+      <p>
+        by
+        <a href="https://twitter.com/codentacos" target="_blank">@codentacos</a>
+      </p>
+    </div>
+
+    <!-- End of emoji divs -->
+
+    <!-- Remove is-hidden and copy -->
+    <div class="emoji is-hidden">
+      <div id="your-username"></div>
+      <p>CSS emoji by {your username}</p>
+    </div>
+    <!-- up to here and paste to the next line. -->
+    <div class="emoji">
+      <div id="botticelli13"></div>
+      <p>
+        by
+        <a href="https://github.com/Botticelli13" target="_blank">Botticelli13</a>
+      </p>
+    </div>
+
+    <div class="emoji">
+      <div id="jmsgbrl__"></div>
+      <p>
+        by
+        <a href="https://twitter.com/jmsgbrl__" target="_blank">@jmsgbrl__</a>
+      </p>
+    </div>
+  </div>
+</body>
+
 </html>
