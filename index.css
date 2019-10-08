@@ -249,3 +249,44 @@ body {
   border-radius: inherit;
   z-index: 1;
 }
+#sanderjson {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 50%;
+  content: "";
+  border: 5px solid #373f51;
+  background: linear-gradient(
+    181deg,
+    #ead2ac 1%,
+    #faf0ca 25%,
+    #ffd700 45%,
+    #fa8072
+  );
+  position: relative;
+}
+#sanderjson:before {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: #373f51;
+  box-shadow: 50px 0px 0 #373f51;
+  content: " ";
+  z-index: 10;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+#sanderjson::after {
+  content: "";
+  width: 50%;
+  height: 20px;
+  background-color: #f8f8ff;
+  border-radius: inherit;
+  border: solid 2px LightPink;
+  position: absolute;
+  left: 25%;
+  bottom: 30px;
+  z-index: 1;
+}
