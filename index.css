@@ -130,3 +130,47 @@ body {
   bottom: 30px;
   z-index: 1;
 }
+
+#vitebo {
+  border: 2px solid #333;
+  background-image: linear-gradient(155deg, #fff 1%, #fee134 25%, #f39f20);
+  border-radius: 50%;
+  height: 100px;
+  padding: 2rem;
+  position: relative;
+  width: 100px;
+}
+
+#vitebo:before {
+  --size: 62px;
+  --height: calc(var(--size) - 4px);
+  --width: calc(var(--size) + 10px);
+  --left-position: calc(50% - var(--width) / 2);
+
+  background-color: transparent;
+  border-radius: 10% 10% 50% 50%;
+  box-shadow:
+    calc(var(--size) / 1.65) var(--size) 0 0 #333,
+    calc(var(--size) / -1.65) var(--size) 0 0 #333,
+    0 38px 0 -24px #333;
+  content: " ";
+  height: var(--height);
+  left: var(--left-position);
+  position: absolute;
+  top: -20px;
+  width: var(--width);
+}
+
+#vitebo:after {
+  --width: 55px;
+  --left-position: calc(50% - var(--width) / 2);
+
+  background-color: #333;
+  border-radius: 4px;
+  bottom: 40px;
+  content: " ";
+  height: 8px;
+  left: var(--left-position);
+  position: absolute;
+  width: var(--width);
+}
