@@ -376,3 +376,36 @@ body {
   position: absolute;
   width: var(--width);
 }
+
+#noviandsh{
+  height: 100px;
+  width: 100px;
+  background-image: linear-gradient(155deg, white 1%, gold 25%, orange);
+  border-radius: 50%;
+  padding: 2rem;
+  position: relative;
+  border: 4px solid #242424;
+}
+
+#noviandsh:before{
+  content: "";
+  height: 30px;
+  width: 30px;
+  background: black;
+  position: absolute;
+  border-radius: 50%;
+  top: 50px;
+  left: 40px;
+  box-shadow: 55px 0px 0 black;
+}
+
+#noviandsh:after{
+  content: "";
+  height: 50px;
+  width: 50px;
+  border-top: 5px solid black;
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+  border-radius: 78% 22% 70% 30% / 30% 13% 87% 70% ;
+}
