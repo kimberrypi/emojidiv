@@ -130,3 +130,39 @@ body {
   bottom: 30px;
   z-index: 1;
 }
+
+#sanderjson {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 50%;
+  content: '';
+  border: 5px solid #373F51;
+  background: linear-gradient(181deg, #EAD2AC 1%, #FAF0CA 25%, #FFD700 45%, #FA8072);
+  position: relative;
+}
+#sanderjson:before {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: #373F51;
+  box-shadow: 50px 0px 0 #373F51;
+  content: ' ';
+  z-index: 10;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+#sanderjson::after {
+  content: "";
+  width: 50%;
+  height: 20px;
+  background-color: #F8F8FF ;
+  border-radius: inherit;
+  border: solid 2px LightPink ;
+  position: absolute;
+  left: 25%;
+  bottom: 30px;
+  z-index: 1;
+}
