@@ -376,3 +376,23 @@ body {
   position: absolute;
   width: var(--width);
 }
+
+#CodeMeNatalie {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 50%;
+}
+
+#CodeMeNatalie:after {
+  position: absolute;
+  content: '秘';
+  top: 20px;
+  left: 45px;
+  font-size: 80px;
+  font-family: 'Lato', serif;
+  text-shadow: 1px 1px #222;
+}
