@@ -469,3 +469,42 @@ a {
   font-family: "Lato", serif;
   text-shadow: 1px 1px #222;
 }
+
+#kate_gamo {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-image: linear-gradient(to top, rgba(255, 166, 0, 0.76) 5%, gold 60%, white);
+  border-radius: 50%;
+  border: 4px solid gold;
+  position: relative;
+}
+
+#kate_gamo::before {
+  position: absolute;
+  content: "";
+  top: 95px;
+  left: 70px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 0 0 #A76700;
+  transform: rotate(45deg);
+}
+
+
+#kate_gamo::after {
+  position: absolute;
+  content: "";
+  top: 65px;
+  left: 50px;
+  width: 15px;
+  height: 30px;
+  border-radius: 80%;
+  background-color: #A76700;
+}
+
+
+
+
