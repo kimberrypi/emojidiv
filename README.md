@@ -1,4 +1,4 @@
-I created this project for everyone who wants to explore participating in open source. This project is inspired by <a href="https://a.single.div/">a.single.div</a> and <a href="https://twitter.com/hj_chen/">Hui Jing's</a> talk last Connect Asia 2019.
+I created this project for everyone who wants to explore participating in open source. This project is inspired by <a href="https://a.singlediv.com/">A Single Div</a> and <a href="https://twitter.com/hj_chen/">Hui Jing's</a> talk last Connect Asia 2019.
 
 # It's October, let's celebrate open source!
 
