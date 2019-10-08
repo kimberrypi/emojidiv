@@ -469,3 +469,35 @@ a {
   font-family: "Lato", serif;
   text-shadow: 1px 1px #222;
 }
+
+#aolamide {
+  border-radius: 50%;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  padding: 2rem;
+  background: linear-gradient(yellow, rgb(255, 179, 0));
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px grey;
+}
+
+#aolamide:before {
+  position: absolute;
+  content: "";
+  background-color: black;
+  top: 30px;
+  left: 30px;
+  border-radius: 50%;
+  padding: 15px;
+  box-shadow: 68px 0px 0px black;
+}
+
+#aolamide:after {
+  position: absolute;
+  content: "";
+  background-color: black;
+  border-radius: 0 0 50% 50%;
+  padding: 20px;
+  top: 80px;
+  width: 50px
+}
