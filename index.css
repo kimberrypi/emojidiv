@@ -484,23 +484,24 @@ a {
 #kate_gamo::before {
   position: absolute;
   content: "";
-  top: 95px;
-  left: 70px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  box-shadow: 6px 6px 0 0 #A76700;
-  transform: rotate(45deg);
+  top: 55px;
+  left: 100px;
+  width: 25px;
+  height: 25px;
+  border-radius: 7%;
+  box-shadow: 4px 4px #A76700;
+  filter: box-drop;
+  transform: rotate(140deg);
 }
 
 
 #kate_gamo::after {
   position: absolute;
   content: "";
-  top: 65px;
-  left: 50px;
-  width: 15px;
-  height: 30px;
+  top: 50px;
+  left: 40px;
+  width: 20px;
+  height: 35px;
   border-radius: 80%;
   background-color: #A76700;
 }
