@@ -469,3 +469,40 @@ a {
   font-family: "Lato", serif;
   text-shadow: 1px 1px #222;
 }
+
+#kuroyza{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-image:  linear-gradient(to right bottom, #ffff00 25%, #ffb300);
+  color: #fff;
+  padding: 2rem;
+  border-radius: 50%;
+}
+
+#kuroyza::after{
+  content: "";
+  position: absolute;
+  top: 58px;
+  right: 29%;
+  height: 20px;
+  width: 16px;
+  background-color: #333;
+  border-radius: inherit;
+  box-shadow: -55px 0 0 #333;
+}
+
+#kuroyza::before{
+  content: "";
+  position: absolute;
+  left: 67px;
+  bottom: 25px;
+  width: 26px;
+  height: 12px;
+  background-image: linear-gradient(to right, #FFF 85%, #3339 80%);
+  background-size: 15%;
+  border-radius: 100px;
+  border: 1px solid #333;
+  transform: scaleX(2);
+  box-shadow: 0 -122px 0px 16px #333;
+}
