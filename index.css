@@ -833,3 +833,18 @@ a {
   background-color: #a76700;
 }
 
+#mark_allen {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-image: linear-gradient(
+          to top,
+          #f8aa0a 5%,
+          #ffe730 70%,
+          #fff
+  );
+  border-radius: 50%;
+  box-shadow: inset 0 0 10px #fea901;
+}
