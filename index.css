@@ -499,5 +499,44 @@ a {
   border-radius: 0 0 50% 50%;
   padding: 20px;
   top: 80px;
-  width: 50px
+  width: 50px;
+}
+#movingtothesun {
+  font-size: 0.625em;
+  width: 10em;
+  height: 10em;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+  color: #eb8f00;
+  border: 0.6em solid currentColor;
+  border-radius: 50%;
+  background-image: linear-gradient(#fee133 0%, #fee133 60%, #f6a323 100%);
+}
+
+#movingtothesun::before {
+  content: "";
+  position: absolute;
+  background: #000;
+  border-radius: 50%;
+  width: 2.2em;
+  height: 2.2em;
+  left: 3.3em;
+  top: 6em;
+  box-shadow: #000 7.6em 0, #fff 0 0 0 1.5em, #fff 7.6em 0 0 1.5em,
+    currentColor 0 0 0 2.1em, currentColor 7.6em 0 0 2.1em,
+    #f18e5f -1em 2em 2em 1.5em, #f18e5f 8.6em 2em 2em 1.5em;
+}
+
+#movingtothesun::after {
+  content: "";
+  position: absolute;
+  background: #000;
+  border-radius: 3em;
+  width: 3em;
+  height: 1.2em;
+  left: 50%;
+  top: 12em;
+  margin-left: -1.5em;
+  box-shadow: -3.8em -10em 0 -0.1em, 3.8em -10em 0 -0.1em;
 }
