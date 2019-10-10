@@ -42,19 +42,32 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
+  margin: .5rem;
 }
 
 .container > div {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: 22.5%;
-  height: 30vh;
+  min-height: 30vh;
   margin: 5px;
-  padding: 5px;
+  padding: 15px;
   border: 1px solid #007a7c1f;
+  flex: 1;
+  min-width: 15rem;
+}
+
+.container > .emoji > div {
+  margin-bottom: 1rem !important;
+  align-self: center;
+}
+
+.container > div > p {
+  margin: auto 0 0;
+  font-size: small;
+  text-align: center;
+  width: 100%;
 }
 
 .is-hidden {
