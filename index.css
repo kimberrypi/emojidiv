@@ -42,7 +42,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: .5rem;
+  margin: 0.5rem;
 }
 
 .container > div {
@@ -767,23 +767,20 @@ a {
 }
 
 #vancass {
-  content: '';
+  content: "";
   width: 20px;
   height: 20px;
   background: black;
   position: relative;
   left: -20px;
   border-radius: 50%;
-  box-shadow: 
-    40px 0px black, 
-    20px 40px black,
-    20px 20px 0px 50px yellow, 
+  box-shadow: 40px 0px black, 20px 40px black, 20px 20px 0px 50px yellow,
     20px 20px 0px 55px orange;
   margin-bottom: 75px;
 }
 
 #vancass:after {
-  content: '';
+  content: "";
   width: 50px;
   height: 30px;
   position: absolute;
@@ -795,13 +792,13 @@ a {
 }
 
 #vancass:before {
-  content: '';
+  content: "";
   width: 50px;
   height: 30px;
   position: absolute;
   bottom: -42px;
   left: -5px;
-  background: black;;
+  background: black;
   border-radius: 50%;
   transform: rotate(-30deg);
 }
@@ -849,21 +846,93 @@ a {
 #meowlivia {
   width: 100px;
   height: 100px;
-  background: #FDD835;
-  background-image: radial-gradient(circle,#fff 10%,#fff 12%, #000 12%, #000000 25%,#000000 40%,white 30%,white 50%,transparent 50%),radial-gradient(circle,#fff 10%,#fff 12%, #000 12%, #000000 25%,#000000 40%,white 30%,white 50%,transparent 50%),linear-gradient(#000,#000);
+  background: #fdd835;
+  background-image: radial-gradient(
+      circle,
+      #fff 10%,
+      #fff 12%,
+      #000 12%,
+      #000000 25%,
+      #000000 40%,
+      white 30%,
+      white 50%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle,
+      #fff 10%,
+      #fff 12%,
+      #000 12%,
+      #000000 25%,
+      #000000 40%,
+      white 30%,
+      white 50%,
+      transparent 50%
+    ),
+    linear-gradient(#000, #000);
   background-repeat: no-repeat;
-  background-size: 50px 50px,50px 50px, 54px 6px;
-  background-position: 5px 20px,45px 20px, 50% 70px;
+  background-size: 50px 50px, 50px 50px, 54px 6px;
+  background-position: 5px 20px, 45px 20px, 50% 70px;
   border-radius: 50%;
   position: relative;
 }
 
 #meowlivia:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 26px;
   top: 72px;
   width: 50%;
   height: 30px;
-  background: linear-gradient(to right , #f43636 0%, #FF9800 20%, #FFEB3B 35%, #7cff00 60%, #00f3ff 78%, #0012ff 100%);
+  background: linear-gradient(
+    to right,
+    #f43636 0%,
+    #ff9800 20%,
+    #ffeb3b 35%,
+    #7cff00 60%,
+    #00f3ff 78%,
+    #0012ff 100%
+  );
+}
+
+#matheusagcosta {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 166, 0, 0.76) 5%,
+    gold 45%,
+    white
+  );
+  border-radius: 50%;
+  box-shadow: 0px -20px 19px rgba(208, 115, 4, 0.65) inset,
+    -10px -20px 19px rgba(208, 115, 4, 0.25) inset,
+    10px -20px 19px rgba(208, 115, 4, 0.25) inset,
+    0 6px 1px rgba(255, 163, 9, 0.44) inset,
+    3px 6px 1px rgba(255, 163, 9, 0.35) inset,
+    -3px 6px 1px rgba(255, 163, 9, 0.35) inset,
+    0 -2px 4px rgba(205, 111, 3, 0.95) inset;
+  position: relative;
+}
+
+#matheusagcosta::after,
+#matheusagcosta::before {
+  box-shadow: 0px 2px 9px #562100 inset;
+  position: absolute;
+  content: "";
+  top: 50px;
+  width: 20px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #a76700;
+}
+
+#matheusagcosta::after {
+  left: 45px;
+}
+
+#matheusagcosta::before {
+  right: 45px;
 }
