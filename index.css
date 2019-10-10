@@ -42,19 +42,32 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
+  margin: 0.5rem;
 }
 
 .container > div {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: 22.5%;
-  height: 30vh;
+  min-height: 30vh;
   margin: 5px;
-  padding: 5px;
+  padding: 15px;
   border: 1px solid #007a7c1f;
+  flex: 1;
+  min-width: 15rem;
+}
+
+.container > .emoji > div {
+  margin-bottom: 1rem !important;
+  align-self: center;
+}
+
+.container > div > p {
+  margin: auto 0 0;
+  font-size: small;
+  text-align: center;
+  width: 100%;
 }
 
 .is-hidden {
@@ -754,23 +767,20 @@ a {
 }
 
 #vancass {
-  content: '';
+  content: "";
   width: 20px;
   height: 20px;
   background: black;
   position: relative;
   left: -20px;
   border-radius: 50%;
-  box-shadow:
-    40px 0px black,
-    20px 40px black,
-    20px 20px 0px 50px yellow,
+  box-shadow: 40px 0px black, 20px 40px black, 20px 20px 0px 50px yellow,
     20px 20px 0px 55px orange;
   margin-bottom: 75px;
 }
 
 #vancass:after {
-  content: '';
+  content: "";
   width: 50px;
   height: 30px;
   position: absolute;
@@ -782,13 +792,13 @@ a {
 }
 
 #vancass:before {
-  content: '';
+  content: "";
   width: 50px;
   height: 30px;
   position: absolute;
   bottom: -42px;
   left: -5px;
-  background: black;;
+  background: black;
   border-radius: 50%;
   transform: rotate(-30deg);
 }
@@ -835,10 +845,6 @@ a {
 
 #mark_allen {
   position: relative;
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-  padding: 2rem;
   overflow: hidden;
   background: linear-gradient(to top, #f8aa0a 5%, #ffe730 70%, #fff);
   border-radius: 50%;
@@ -867,4 +873,97 @@ a {
   height: 20px;
   width: 80px;
   border-top: 9px solid #6C3200;
+
+#meowlivia {
+  width: 100px;
+  height: 100px;
+  background: #fdd835;
+  background-image: radial-gradient(
+      circle,
+      #fff 10%,
+      #fff 12%,
+      #000 12%,
+      #000000 25%,
+      #000000 40%,
+      white 30%,
+      white 50%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle,
+      #fff 10%,
+      #fff 12%,
+      #000 12%,
+      #000000 25%,
+      #000000 40%,
+      white 30%,
+      white 50%,
+      transparent 50%
+    ),
+    linear-gradient(#000, #000);
+  background-repeat: no-repeat;
+  background-size: 50px 50px, 50px 50px, 54px 6px;
+  background-position: 5px 20px, 45px 20px, 50% 70px;
+  border-radius: 50%;
+  position: relative;
+}
+
+#meowlivia:after {
+  content: "";
+  position: absolute;
+  left: 26px;
+  top: 72px;
+  width: 50%;
+  height: 30px;
+  background: linear-gradient(
+    to right,
+    #f43636 0%,
+    #ff9800 20%,
+    #ffeb3b 35%,
+    #7cff00 60%,
+    #00f3ff 78%,
+    #0012ff 100%
+  );
+}
+
+#matheusagcosta {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 166, 0, 0.76) 5%,
+    gold 45%,
+    white
+  );
+  border-radius: 50%;
+  box-shadow: 0px -20px 19px rgba(208, 115, 4, 0.65) inset,
+    -10px -20px 19px rgba(208, 115, 4, 0.25) inset,
+    10px -20px 19px rgba(208, 115, 4, 0.25) inset,
+    0 6px 1px rgba(255, 163, 9, 0.44) inset,
+    3px 6px 1px rgba(255, 163, 9, 0.35) inset,
+    -3px 6px 1px rgba(255, 163, 9, 0.35) inset,
+    0 -2px 4px rgba(205, 111, 3, 0.95) inset;
+  position: relative;
+}
+
+#matheusagcosta::after,
+#matheusagcosta::before {
+  box-shadow: 0px 2px 9px #562100 inset;
+  position: absolute;
+  content: "";
+  top: 50px;
+  width: 20px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #a76700;
+}
+
+#matheusagcosta::after {
+  left: 45px;
+}
+
+#matheusagcosta::before {
+  right: 45px;
 }
