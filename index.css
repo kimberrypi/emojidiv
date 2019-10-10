@@ -970,3 +970,31 @@ a {
 #matheusagcosta::before {
   right: 45px;
 }
+
+#smokinclove-sparkle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle at 30px 30px, red 0 30px, transparent 30px),radial-gradient(circle at 68px 70px, red 0 30px, transparent 30px), linear-gradient(45deg, red 0px 50px, transparent 50px), radial-gradient(circle at 36px 75px, red 0 20px, transparent 20px);
+  transform: rotate(-45deg)
+}
+#smokinclove-sparkle::before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 40px;
+  left: -14px;
+  background: radial-gradient(circle at 0 0, transparent 0 30%, yellow 30% 38%, transparent 38%), radial-gradient(circle at 95% 0, transparent 0 30%, yellow 30% 38%, transparent 38%),radial-gradient(circle at 95% 93%, transparent 0 30%, yellow 30% 38%, transparent 38%), radial-gradient(circle at 0% 93%,transparent 0 30%, yellow 30% 38%, transparent 38%), radial-gradient(circle at 48% 48%, yellow 0 34%, transparent 34%);
+  transform: rotate(45deg);
+}
+#smokinclove-sparkle::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 50px;
+  left: 75px;
+  background: radial-gradient(circle at 0 0, transparent 0 30%, yellow 30% 38%, transparent 38%), radial-gradient(circle at 95% 0, transparent 0 30%, yellow 30% 38%, transparent 38%),radial-gradient(circle at 95% 93%, transparent 0 30%, yellow 30% 38%, transparent 38%), radial-gradient(circle at 0% 93%,transparent 0 30%, yellow 30% 38%, transparent 38%), radial-gradient(circle at 48% 48%, yellow 0 34%, transparent 34%);
+  transform: rotate(45deg);
+}
