@@ -844,6 +844,8 @@ a {
 }
 
 #mark_allen {
+  width: 160px;
+  height: 160px;
   position: relative;
   overflow: hidden;
   background: linear-gradient(to top, #f8aa0a 5%, #ffe730 70%, #fff);
@@ -873,6 +875,7 @@ a {
   height: 20px;
   width: 80px;
   border-top: 9px solid #6C3200;
+}
 
 #meowlivia {
   width: 100px;
