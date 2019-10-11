@@ -1182,7 +1182,7 @@ a {
   margin: 0 auto;
   border-radius: 50%;
   background: 
-    radial-gradient(circle at 50% 40%, #FFCE4A 40% 40%, transparent 50%),
+    linear-gradient(#FFCE4A 55% 40%, transparent 50%),
     radial-gradient( circle at 50% 55%, #96660c 38% 38%, transparent 40% ),
     radial-gradient(circle at 50% 50%, #FFCE4A 0 50%);
   position: relative;
