@@ -1806,3 +1806,18 @@ a {
   left: 90px;
   transform: rotate(-21deg) scale(1.1);
 }
+
+#kimberrypi-pride {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 0px 70px 0 0;
+  -moz-border-radius: 0 70px 0 0;
+  -webkit-border-radius: 0 70px 0 0;
+  position: relative;
+  margin-top: 75px;
+  margin-left: -45px;
+  box-shadow: 5px -5px 0 5px purple, 10px -10px 0 10px indigo,
+    15px -15px 0 15px blue, 20px -20px 0 20px green, 25px -25px 0 25px yellow,
+    30px -30px 0 30px orange, 35px -35px 0 35px red;
+}
