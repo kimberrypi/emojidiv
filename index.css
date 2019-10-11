@@ -1817,7 +1817,7 @@ a {
   position: relative;
   margin-top: 75px;
   margin-left: -45px;
-  box-shadow: 5px -5px 0 5px purple, 10px -10px 0 10px indigo,
-    15px -15px 0 15px blue, 20px -20px 0 20px green, 25px -25px 0 25px yellow,
-    30px -30px 0 30px orange, 35px -35px 0 35px red;
+  box-shadow: 5px -5px 0 5px #af2fcf, 10px -10px 0 10px #1550d2,
+    15px -15px 0 15px #069534, 20px -20px 0 20px #fffa48,
+    25px -25px 0 25px #ffb22c, 30px -30px 0 30px #fb2223;
 }
