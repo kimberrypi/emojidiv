@@ -14,15 +14,40 @@ body {
 }
 
 #skelrilod {
+  display: flex;
+  justify-content: center;
   border: 3px solid #ff9900;
   background-image: radial-gradient( #ffff00, #FFC83D);
   width: 350px;
   height: 350px;
   border-radius: 50%;
   box-shadow: 5px 5px 5px 5px grey;
+  /* transform: rotate(180deg); */
 }
-/* 
-#skelrilod:before {
 
-} */
+#skelrilod::before {
+  content: "";
+  position: relative;
+  border: 10px solid black;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: black;
+  margin: auto;
+  top: 50px;
+}
+
+#skelrilod::after {
+  content: "";
+  position: relative;
+  border: 10px solid black;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: black;
+  margin: auto;
+  top: 50px;
+}
+
+
 }
