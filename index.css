@@ -1806,3 +1806,27 @@ a {
   left: 90px;
   transform: rotate(-21deg) scale(1.1);
 }
+
+#cayeborreo {
+  box-shadow:
+  -70px 0px 0 #FDCB2B, -30px -40px 0 #211C30,
+  -80px 10px 0 #FDCB2B, -70px 10px 0 #FFE282, -60px 10px 0 #FDCB2B, -40px -30px 0 #211C30, -30px -30px 0 #47AFFA, -20px -30px 0 #211C30,
+  -70px 20px 0 #FDCB2B, -40px -20px 0 #211C30, -30px -20px 0 #5BD04C, -20px -20px 0 #5BD04C, -10px -20px 0 #211C30,
+  -30px -10px 0 #211C30, -20px -10px 0 #FDCB2B,-10px -10px 0 #FDCB2B, 0 -10px 0 #211C30, 70px -10px 0 #211C30, 80px -10px 0 #211C30,
+  -30px 0 0 #211C30, -20px 0 0 #F28A26, -10px 0 0 #F28A26, 10px 0 0 #211C30, 20px 0 0 #211C30, 30px 0 0 #211C30, 40px 0 0 #211C30, 50px 0 0 #211C30, 60px 0 0 #211C30, 90px 0 0 #211C30,
+  -20px 10px 0 #211C30,  -10px 10px 0 #CD351D, 0 10px 0 #A42915, 10px 10px 0 #7D1D0D, 20px 10px 0 #DE57A9, 30px 10px 0 #DE57A9, 40px 10px 0 #DE57A9, 50px 10px 0 #211C30, 70px 10px 0 #F14965, 90px 10px 0 #211C30,
+  -20px 20px 0 #211C30, -10px 20px 0 #7D1D0D,  0 20px 0 #7D1D0D, 10px 20px 0 #DE57A9, 20px 20px 0 #DE57A9, 30px 20px 0 #211C30, 40px 20px 0 #211C30, 60px 20px 0 #F14965, 70px 20px 0 #F0B4DF, 80px 20px 0 #211C30,
+  -20px 30px 0 #211C30, -10px 30px 0 #DE57A9,  0 30px 0 #DE57A9, 10px 30px 0 #DE57A9, 20px 30px 0 #211C30, 30px 30px 0 #F0B4DF, 60px 30px 0 #F0B4DF, 70px 30px 0 #211C30,
+  -30px 40px 0 #211C30, -20px 40px 0 #DE57A9, -10px 40px 0 #DE57A9, 0 40px 0 #211C30, 10px 40px 0 #211C30, 20px 40px 0 #F0B4DF, 60px 40px 0 #211C30, 70px 40px 0 #DE57A9, 80px 40px 0 #211C30,
+  -40px 50px 0 #211C30, -30px 50px 0 #F0B4DF, -20px 50px 0 #211C30, -10px 50px 0 #211C30, 0 50px 0 #F0B4DF, 20px 50px 0 #211C30, 30px 50px 0 #211C30, 60px 50px 0 #211C30, 70px 50px 0 #DE57A9, 80px 50px 0 #DE57A9, 90px 50px 0 #211C30,
+  -90px 60px 0 #FDCB2B, -50px 60px 0 #211C30, 20px 60px 0 #211C30, 30px 60px 0 #211C30, 60px 60px 0 #211C30, 70px 60px 0 #DE57A9, 80px 60px 0 #DE57A9, 90px 60px 0 #DE57A9, 100px 60px 0 #211C30,
+  -100px 70px 0 #FDCB2B, -90px 70px 0 #FFE282, -80px 70px 0 #FDCB2B, -50px 70px 0 #211C30, -40px 70px 0 #F0B4DF, -10px 70px 0 #F0B4DF, 60px 70px 0 #F0B4DF, 70px 70px 0 #211C30, 80px 70px 0 #DE57A9, 80px 70px 0 #DE57A9, 90px 70px 0 #DE57A9, 100px 70px 0 #DE57A9, 110px 70px 0 #211C30, 120px 70px 0 #211C30,
+  -90px 80px 0 #FDCB2B, -50px 80px 0 #211C30, -40px 80px 0 #F0B4DF, -10px 80px 0 #F0B4DF, 70px 80px 0 #211C30, 80px 80px 0 #DE57A9, 90px 80px 0 #DE57A9, 100px 80px 0 #DE57A9, 110px 80px 0 #DE57A9, 120px 80px 0 #211C30,
+  -50px 90px 0 #211C30, 70px 90px 0 #F0B4DF, 80px 90px 0 #211C30, 90px 90px 0 #DE57A9, 100px 90px 0 #DE57A9, 110px 90px 0 #DE57A9, 120px 90px 0 #211C30,
+  -40px 100px 0 #211C30, 30px 100px 0 #F0B4DF, 80px 100px 0 #F0B4DF, 90px 100px 0 #211C30, 100px 100px 0 #DE57A9, 110px 100px 0 #211C30, 120px 100px 0 #F0B4DF,
+  -30px 110px 0 #211C30, -20px 110px 0 #211C30, -10px 110px 0 #211C30, 0 110px 0 #211C30, 10px 110px 0 #211C30, 20px 110px 0 #211C30, 90px 110px 0 #211C30, 100px 110px 0 #DE57A9, 110px 110px 0 #211C30,
+  20px 120px 0 #211C30, 100px 120px 0 #211C30, 110px 120px 0 #F0B4DF;
+  height: 10px;
+  width: 10px;
+  background-color: #CD351D;
+}
