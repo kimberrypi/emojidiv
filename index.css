@@ -854,27 +854,27 @@ a {
 }
 
 #mark_allen::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50px;
   left: -21px;
   height: 20px;
   width: 100%;
   overflow: hidden;
-  background-image: linear-gradient(to right, #6C3200 56%, transparent 0%);
+  background-image: linear-gradient(to right, #6c3200 56%, transparent 0%);
   background-position: bottom;
   background-size: 72px 8px;
   background-repeat: repeat-x;
 }
 
 #mark_allen::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 42px;
   bottom: 30px;
   height: 20px;
   width: 80px;
-  border-top: 9px solid #6C3200;
+  border-top: 9px solid #6c3200;
 }
 
 #meowlivia {
@@ -975,26 +975,108 @@ a {
   position: absolute;
   width: 100px;
   height: 100px;
-  background: radial-gradient(circle at 30px 30px, red 0 30px, transparent 30px),radial-gradient(circle at 68px 70px, red 0 30px, transparent 30px), linear-gradient(45deg, red 0px 50px, transparent 50px), radial-gradient(circle at 36px 75px, red 0 20px, transparent 20px);
-  transform: rotate(-45deg)
+  background: radial-gradient(circle at 30px 30px, red 0 30px, transparent 30px),
+    radial-gradient(circle at 68px 70px, red 0 30px, transparent 30px),
+    linear-gradient(45deg, red 0px 50px, transparent 50px),
+    radial-gradient(circle at 36px 75px, red 0 20px, transparent 20px);
+  transform: rotate(-45deg);
 }
 #smokinclove-sparkle::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 40px;
   height: 40px;
   top: 40px;
   left: -14px;
-  background: radial-gradient(circle at 0 0, transparent 0 30%, yellow 30% 38%, transparent 38%), radial-gradient(circle at 95% 0, transparent 0 30%, yellow 30% 38%, transparent 38%),radial-gradient(circle at 95% 93%, transparent 0 30%, yellow 30% 38%, transparent 38%), radial-gradient(circle at 0% 93%,transparent 0 30%, yellow 30% 38%, transparent 38%), radial-gradient(circle at 48% 48%, yellow 0 34%, transparent 34%);
+  background: radial-gradient(
+      circle at 0 0,
+      transparent 0 30%,
+      yellow 30% 38%,
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 95% 0,
+      transparent 0 30%,
+      yellow 30% 38%,
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 95% 93%,
+      transparent 0 30%,
+      yellow 30% 38%,
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 0% 93%,
+      transparent 0 30%,
+      yellow 30% 38%,
+      transparent 38%
+    ),
+    radial-gradient(circle at 48% 48%, yellow 0 34%, transparent 34%);
   transform: rotate(45deg);
 }
 #smokinclove-sparkle::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 30px;
   height: 30px;
   top: 50px;
   left: 75px;
-  background: radial-gradient(circle at 0 0, transparent 0 30%, yellow 30% 38%, transparent 38%), radial-gradient(circle at 95% 0, transparent 0 30%, yellow 30% 38%, transparent 38%),radial-gradient(circle at 95% 93%, transparent 0 30%, yellow 30% 38%, transparent 38%), radial-gradient(circle at 0% 93%,transparent 0 30%, yellow 30% 38%, transparent 38%), radial-gradient(circle at 48% 48%, yellow 0 34%, transparent 34%);
+  background: radial-gradient(
+      circle at 0 0,
+      transparent 0 30%,
+      yellow 30% 38%,
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 95% 0,
+      transparent 0 30%,
+      yellow 30% 38%,
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 95% 93%,
+      transparent 0 30%,
+      yellow 30% 38%,
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 0% 93%,
+      transparent 0 30%,
+      yellow 30% 38%,
+      transparent 38%
+    ),
+    radial-gradient(circle at 48% 48%, yellow 0 34%, transparent 34%);
   transform: rotate(45deg);
+}
+#artoliukkonen {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-image: linear-gradient(155deg, white 1%, gold 25%, orange);
+  border-radius: 50%;
+  border: 4px solid #242424;
+  position: relative;
+}
+
+#artoliukkonen:before,
+#artoliukkonen:after {
+  content: "x";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: inherit;
+  left: 40px;
+  bottom: 100px;
+  z-index: 1;
+  font-size: 35px;
+  font-family: Arial, sans-serif;
+  box-shadow: 27px 68px 0px black;
+}
+
+#artoliukkonen:after {
+  right: 30px;
+  left: initial;
+  box-shadow: initial;
 }
