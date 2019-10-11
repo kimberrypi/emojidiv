@@ -23,8 +23,10 @@ body {
   border-radius: 50%;
   box-shadow: 5px 5px 5px 5px grey;
   /* transform: rotate(180deg); */
+  /* box-sizing: border-box; */
 }
 
+#skelrilod::after,
 #skelrilod::before {
   content: "";
   position: relative;
@@ -37,17 +39,6 @@ body {
   top: 50px;
 }
 
-#skelrilod::after {
-  content: "";
-  position: relative;
-  border: 10px solid black;
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  background-color: black;
-  margin: auto;
-  top: 50px;
-}
-
+/* #skelrilod::after { */
 
 }
