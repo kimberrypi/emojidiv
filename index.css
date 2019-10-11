@@ -1872,3 +1872,45 @@ a {
   width: 10px;
   background-color: #cd351d;
 }
+
+#azel-smilingface {
+  position: relative;
+  background-color: #ffc83d;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  border: 5px solid #ff8d0d;
+}
+
+#azel-smilingface::before {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  background-color: #ffc83d;
+  width: 46px;
+  height: 20px;
+  top: 70px;
+  left: 36px;
+  border-radius: 50%;
+  box-shadow: #ffc83d 80px 0px 0px 0px, 
+    #654307 80px -11px 0px 0px, 
+    #654307 0px -11px 0px 0px, 
+    #ff8d0d -15px 36px 22px 5px, 
+    #ff8d0d 105px 36px 22px 5px;
+}
+
+#azel-smilingface::after {
+  content: " ";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 68px;
+  bottom: 28px;
+  border: 8px solid #654307;
+  border-radius: 30%;
+  border-bottom-left-radius: 40px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  transform: rotate(-45deg);
+}
