@@ -1174,3 +1174,41 @@ a {
   font-weight: bolder;
   transform: rotate(5deg);
 }
+
+#mplb0 {
+  width: 160px;
+  height: 160px;
+  top:10px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: 
+    radial-gradient(circle at 50% 40%, #FFCE4A 40% 40%, transparent 50%),
+    radial-gradient( circle at 50% 55%, #96660c 38% 38%, transparent 40% ),
+    radial-gradient(circle at 50% 50%, #FFCE4A 0 50%);
+  position: relative;
+
+}
+
+#mplb0::after,
+#mplb0::before {
+  position: absolute;
+  width:60px;
+  height:60px;
+  content: "";
+  background: 
+           radial-gradient(circle at 20.5px 25px, #DF2640 20px, transparent 41%),
+           radial-gradient(circle at 35px 39.5px, #DF2640 20px, transparent 41%),
+           linear-gradient(45deg, #DF2640 0px 23px, transparent 25px);
+}
+
+#mplb0::before {
+  top: -5px;
+  right: 90px;
+  transform: rotate(-69deg) scale(1.1);
+}
+
+#mplb0::after {
+  top: -5px;
+  left: 90px;
+  transform: rotate(-21deg) scale(1.1);
+} 
