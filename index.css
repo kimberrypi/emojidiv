@@ -1141,3 +1141,36 @@ a {
   font-size: 2.25rem;
   background: none;
 }
+
+#paulliamag{
+  width: 200px;
+  height: 200px;
+  background: black;
+  position: relative;
+  border-radius: 100%;
+  box-shadow: -5px 5px 15px white inset;
+  background: linear-gradient(45deg, black, #000000bf);
+}
+
+#paulliamag:before {
+  position: absolute;
+  content: "";
+  top: 15px;
+  left: 10%;
+  width: 110px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  transform: rotate(-140deg);
+  box-shadow: 0 1px 5px #000000 inset;
+}
+
+#paulliamag:after {
+  position: absolute;
+  content: "8";
+  left: 22%;
+  font-size: 100px;
+  font-family: cursive;
+  font-weight: bolder;
+  transform: rotate(5deg);
+}
