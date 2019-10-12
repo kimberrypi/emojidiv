@@ -1084,6 +1084,20 @@ a {
   box-shadow: initial;
 }
 
+#akankshach {
+  font-size: 800%;
+  color: gold;
+  animation: change-star-color 1.5s infinite;
+}
+@keyframes change-star-color {
+  from {
+    color: gold;
+  }
+  to {
+    color: silver;
+  }
+}
+
 #jacobtyq {
   animation: jacobtyq 1s infinite;
   -webkit-animation: jacobtyq 1s infinite;
