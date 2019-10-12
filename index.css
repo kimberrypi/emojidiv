@@ -2037,3 +2037,11 @@ a {
   border-radius: 0 30px 30px 0;
   right: -30px;
 }
+
+#stargirlcodes {
+  border-radius: 50%;
+  background-color: #ffffff;
+  width: 130px;
+  height: 165px;
+  background: linear-gradient(to bottom right, #ffffff, #c0c0c0); 
+}
