@@ -1872,3 +1872,32 @@ a {
   width: 10px;
   background-color: #cd351d;
 }
+
+#phillipknight {
+  background-size: 100%;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  text-align: center;
+  background: rgba(255, 204, 0, 1);
+}
+#phillipknight:before,
+#phillipknight:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 150px;
+  width: 150px;
+  background: radial-gradient(
+    circle,
+    rgba(254, 255, 153, 1) 70%,
+    rgba(255, 204, 0, 1) 72%
+  );
+}
+#phillipknight:before {
+  transform: rotate(30deg);
+}
+#phillipknight:after {
+  transform: rotate(60deg);
+}
