@@ -376,3 +376,29 @@ body {
   position: absolute;
   width: var(--width);
 }
+ 
+#garciajasminejoy {
+  position: relative;
+  height: 100%;
+  width: 150px;
+  background-color: yellow;
+  background: 
+  radial-gradient(12px 11px at 32% 32%, black 50%, transparent 4%),
+  radial-gradient(12px 11px at 67% 32%, black 50%, transparent 4%),
+  radial-gradient(30px 30px at 30% 40%, white 50%, transparent 4%),
+  radial-gradient(30px 30px at 65% 40%, white 50%, transparent 4%),
+  radial-gradient(circle at bottom right, gold 50%, yellow 100%) ;
+  border-radius: 100%;
+  border: 4px solid black;
+}
+
+#garciajasminejoy:after {
+  content: '';
+  position: absolute;
+  top: 70%;
+  left: 34%;
+  width: 32%;
+  height: 6px;
+  background-color: black;
+  border-radius: 4px;
+}
