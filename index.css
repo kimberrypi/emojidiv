@@ -2217,7 +2217,7 @@ a {
   border-bottom-right-radius: 40px;
 }
 
-#yin-yang {
+#sanjpareek {
   width: 96px;
   box-sizing: content-box;
   height: 48px;
@@ -2228,7 +2228,7 @@ a {
   border-radius: 100%;
   position: relative;
 }
-#yin-yang:before {
+#sanjpareek:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -2240,7 +2240,7 @@ a {
   height: 12px;
   box-sizing: content-box;
 }
-#yin-yang:after {
+#sanjpareek:after {
   content: "";
   position: absolute;
   top: 50%;
