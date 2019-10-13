@@ -2252,3 +2252,35 @@ a {
   height: 12px;
   box-sizing: content-box;
 }
+
+
+#JasaniDhruv {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #54e7e7;
+  border-radius: 50%;
+  position: relative;
+}
+
+#JasaniDhruv::before {
+  content: "";
+  height: 35px;
+  width: 25px;
+  border-radius: 60%;
+  box-shadow: 50px 0 #5e0247;
+  background-color: #5e0247;
+  position: absolute;
+  top: 40px;
+  left: 45px;
+}
+#JasaniDhruv::after {
+  content: "";
+  position: absolute;
+  left: 42px;
+  bottom: 30px;
+  height: 20px;
+  width: 80px;
+  border-top: 9px solid #5e0247;
+}
