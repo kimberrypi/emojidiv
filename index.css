@@ -92,6 +92,63 @@ a {
   }
 }
 
+
+#Naivedh {
+  background: /*start eye*/ radial-gradient(
+      ellipse at 29% 54%,
+      #f5d442 0 13%,
+      transparent 11%
+    ),
+    radial-gradient(ellipse at 28% 49%, #96660c 0 13%, transparent 13%),
+    /*right eye */
+      radial-gradient(ellipse at 72% 54%, #f5d442 0 15px, transparent 15px),
+    radial-gradient(ellipse at 73% 49%, #96660c 0 15%, #a6868600 13%)
+      /*end eye*/,
+    /*brow*/ radial-gradient(ellipse at 36% 47%, #f5d442 0 27%, transparent 12%),
+    radial-gradient(ellipse at 28% 39%, #96660c 0 14%, transparent 12%),
+    /*right brow*/
+      radial-gradient(ellipse at 64% 47%, #f5d442 0 27%, transparent 12%),
+    radial-gradient(ellipse at 72% 38%, #96660c 0 13%, transparent 13%)
+      /*end brow*/,
+    /* start of mouth*/
+      radial-gradient(
+        circle at 49% 12%,
+        #f5d442 0 58%,
+        
+        transparent 25%
+      ),
+    radial-gradient(circle at 50% 56%, #96660c 0 51%, transparent 45%)
+      /* end of mouth*/,
+    /* start face background*/ radial-gradient(circle at 50% 50%, #f5d442 0 50%);
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  transform: scale(1.2);
+
+
+  
+}
+#Naivedh::before {
+ 
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 29px;
+  border-radius: 95% 20% 90% 80% / 95% 60% 90% 80%;
+  background: radial-gradient(circle at 50% 60%, white 0 1px, #47c0fc 10px);
+  border: 2px solid black;
+  transform: translate(70px, 35px)  rotate(320deg);
+   
+  margin-top: -45px;
+  
+} 
+
+
+
+
+
+
 #kimberrypi {
   width: 100px;
   height: 100px;
