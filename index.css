@@ -2784,3 +2784,17 @@ a {
   background-color: black;
   border-radius: 4px;
 }
+
+#maczokni {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border-radius: 100%;
+  box-shadow: -5px 5px 15px white inset;
+  background: radial-gradient(circle at 65% 35%, #000000 0 5%, transparent 7%),
+    radial-gradient(circle at 35% 35%, #000000 0 5%, transparent 7%),
+    radial-gradient(ellipse at 50% 75%, #ffffff 0 5%, transparent 7%),
+    radial-gradient(circle at 27% 35%, #ffffff 0 20%, transparent 22%),
+    radial-gradient(circle at 73% 35%, #ffffff 0 20%, transparent 22%),
+    radial-gradient(circle at 50% 50%, #000000 0 50%);
+}
