@@ -2932,3 +2932,41 @@ a {
   border-radius: 80% / 50%;
   box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.2);
 }
+
+#dominuskelvin {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-image: linear-gradient(155deg, #fff 1%, #fee134 25%, #f39f20);
+  border-radius: 50%;
+  border: 1px solid black;
+  position: relative;
+}
+
+#dominuskelvin:after {
+  content: " ";
+  width: 50px;
+  height: 50px;
+  border: 5px solid black;
+  border-radius: 50%;
+  border-top-right-radius: 100px;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(132deg);
+  right: 52px;
+  bottom: 10px;
+  position: absolute;
+}
+
+#dominuskelvin:before {
+  content: " ";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  box-shadow: 50px 0px 0 black;
+  border-radius: inherit;
+  left: 46px;
+  z-index: 1;
+}
