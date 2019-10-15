@@ -22,11 +22,8 @@ body {
   height: 350px;
   border-radius: 50%;
   box-shadow: 5px 5px 5px 5px grey;
-  /* transform: rotate(180deg); */
-  /* box-sizing: border-box; */
 }
 
-#skelrilod::after,
 #skelrilod::before {
   content: "";
   position: relative;
@@ -36,9 +33,17 @@ body {
   border-radius: 50%;
   background-color: black;
   margin: auto;
-  top: 50px;
+  top: 75px;
+  box-shadow: 90px 0px 0 black;
+  margin-left: 110px;
 }
 
-/* #skelrilod::after { */
-
+#skelrilod::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-top: 14px solid black;
+  border-radius: 50%;
+  margin-top: 55px;
 }
