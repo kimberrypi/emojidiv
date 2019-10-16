@@ -47,3 +47,12 @@ body {
   border-radius: 50%;
   margin-top: 55px;
 }
+
+p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-family: "Press Start 2P", Tahoma, sans-serif;
+  top: 75%;
+  font-size: larger;
+}
