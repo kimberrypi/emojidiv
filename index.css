@@ -3040,14 +3040,14 @@ a {
 
 #valdeezzee::after {
   content: " ";
-  position: absolute;  
+  position: absolute;
   top: 70px;
   left: 50px;
   width: 20px;
   height: 20px;
   background-color: saddlebrown;
   box-shadow: 50px 0px 0 saddlebrown;
-  border-radius: inherit;  
+  border-radius: inherit;
   z-index: 1;
 }
 
@@ -3107,8 +3107,7 @@ a {
   left: 30px;
   bottom: 80px;
   z-index: 1;
-  box-shadow: #7c4f00 80px 0px 0px 0px,
-    #815200 -10px 11px 0px 0px;
+  box-shadow: #7c4f00 80px 0px 0px 0px, #815200 -10px 11px 0px 0px;
 }
 
 #grsn_chml::after {
@@ -3124,4 +3123,11 @@ a {
   border-top-color: transparent;
   border-right-color: transparent;
   transform: rotate(315deg);
-} 
+}
+
+#jojonarte {
+  width: 100px;
+  height: 100px;
+  background: green;
+  border-radius: 50%;
+}
