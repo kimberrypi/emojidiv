@@ -3008,3 +3008,39 @@ a {
   left: 46px;
   z-index: 1;
 }
+
+#InsiyaK110 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-right: 70px solid transparent;
+  border-top: 70px solid yellow;
+  border-left: 70px solid yellow;
+  border-bottom: 70px solid yellow;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+}
+
+#InsiyaK110::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: -30px;
+  height: 30px;
+  width: 30px;
+  background: white;
+  border-radius: 40%;
+}
+
+#InsiyaK110::after {
+  content: "";
+  position: absolute;
+  top: -45px;
+  left: -25px;
+  height: 20px;
+  width: 20px;
+  background: saddlebrown;
+  border-radius: 40%;
+}
