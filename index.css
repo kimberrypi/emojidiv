@@ -3166,3 +3166,31 @@ a {
   background: saddlebrown;
   border-radius: 40%;
 }
+
+
+#SushilBajra11 {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background-color: rgb(255, 215, 0);
+    border-radius: 100px;
+}
+
+#SushilBajra11::before,
+#SushilBajra11::after {
+    position: absolute;
+    content: '';
+    top: 60px;
+    width: 20px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: brown;
+}
+
+#SushilBajra11::before {
+  left: 50px;
+}
+
+#SushilBajra11::after {
+  right: 50px;
+}
