@@ -11,6 +11,10 @@ a {
   color: #318997;
 }
 
+#sumaiya {
+  font-size: 116px;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
