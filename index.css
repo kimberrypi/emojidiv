@@ -3166,3 +3166,36 @@ a {
   background: saddlebrown;
   border-radius: 40%;
 }
+
+#Frinlanz {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-image: linear-gradient(to top, #f8a90a 30%, #fae75a 70%, #fff);
+  border-radius: 50%;
+  border: 5px solid #f8a90a;
+  position: relative;
+}
+
+#Frinlanz:after {
+  content: " ";
+  width: 70px;
+  height: 10px;
+  background-color: black;
+  right: 45px;
+  bottom: 50px;
+  position: absolute;
+}
+
+#Frinlanz:before {
+  content: " ";
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  background-color: black;
+  box-shadow: 50px 0px 0 black;
+  border-radius: 20px;
+  left: 46px;
+  z-index: 1;
+}
