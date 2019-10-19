@@ -3166,3 +3166,37 @@ a {
   background: saddlebrown;
   border-radius: 40%;
 }
+
+#caroldestreza{
+  background: #FCC21B;
+  position: relative;
+  width: 172px;
+  height: 140px;
+  border-radius:60% 60% 40% 40% / 80% 80% 20% 20% ;
+}
+
+#caroldestreza:before{
+  position: absolute;
+  content: '';
+  height: 20px;
+  width: 85px;
+  border-radius: 10% 10% 50% 50% / 20% 20% 80% 80%;
+  background-color: transparent;
+  left: 45px;
+  top: 65px;
+  box-shadow: -10px 20px 0 0px #2F2F2F,
+              10px 20px 0 0px #2F2F2F;             
+}
+
+#caroldestreza:after{
+  position: absolute;
+    content: '';
+    height: 30px;
+    width:25px;
+    border-radius: 50%;
+    background-color: transparent;
+    left: 60px;
+    top: 20px;
+    box-shadow: -20px 20px 0 0px #2F2F2F,
+                50px 20px 0 0px #2F2F2F;
+}
