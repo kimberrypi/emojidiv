@@ -3166,3 +3166,38 @@ a {
   background: saddlebrown;
   border-radius: 40%;
 }
+#aliheikal
+{
+width:200px;
+height:200px;
+border-radius:50%;
+background:#ecf0f1;
+position:relative;
+margin:10px auto;
+}
+
+#aliheikal:before
+{
+content:"";
+width:125px;
+height:125px;
+background:#003366;
+border-radius:50%;
+position:absolute;
+left: 38px;
+top: 40px;
+box-shadow:inset 0px 0px 0px 35px #0080ff;
+}
+
+#aliheikal:after
+{
+content:"";
+width:35px;
+height:35px;
+background:#ffffff;
+opacity: 0.8;
+border-radius:50%;
+position:absolute;
+left: 105px;
+top: 69px;
+}
