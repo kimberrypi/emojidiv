@@ -3166,3 +3166,25 @@ a {
   background: saddlebrown;
   border-radius: 40%;
 }
+#chintanpalan-1{
+  position: relative;
+  min-height: 100px;
+  width: 100px;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+#chintanpalan-1::before,#chintanpalan-1::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+  width: 10px;
+  height: 100px;
+  transform: rotate(55deg);
+  box-shadow: -18px 4px 3px -4px rgba(255,255,255,.8),
+  -18px -88px 3px -4px rgba(255,255,255,.8),
+  -15px 0 0 0 #AD1718,
+  -15px -26px 0 0 #000;
+}
+#chintanpalan-1::after{ transform: rotate(43deg) translateX(-23px) translateY(-8px); }
