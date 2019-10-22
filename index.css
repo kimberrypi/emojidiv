@@ -3166,3 +3166,10 @@ a {
   background: saddlebrown;
   border-radius: 40%;
 }
+
+#ScottishRoss {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-radius: 50%;
+}
