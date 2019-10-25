@@ -5,6 +5,7 @@ body {
   font-family: "Press Start 2P", Tahoma, sans-serif;
   margin: 0;
   line-height: 1.5;
+  background-image: url("bg-pattern-desktop.svg");
 }
 
 a {
@@ -3133,8 +3134,8 @@ a {
 }
 #InsiyaK110 {
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border-right: 70px solid transparent;
   border-top: 70px solid yellow;
   border-left: 70px solid yellow;
@@ -3143,6 +3144,7 @@ a {
   border-top-right-radius: 70px;
   border-bottom-left-radius: 70px;
   border-bottom-right-radius: 70px;
+  padding: -20px;
 }
 
 #InsiyaK110::before {
