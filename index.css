@@ -3166,3 +3166,47 @@ a {
   background: saddlebrown;
   border-radius: 40%;
 }
+
+#edu-matic1{
+  width: 10rem;
+  height: 10rem;
+  background: #dbdbdb;
+  border-radius: 50%;
+}
+#edu-matic1::before{
+  content: '';
+  width: 10rem;
+  height: 5rem;
+  background: #FF1C1C;
+  border-radius: 5rem 5rem 0 0;
+  position: absolute;
+}
+#edu-matic2{
+  width: 10rem;
+  height: 0.5rem;
+  background: #333;
+  margin-top: 4.8rem;
+  position: absolute;
+}
+#edu-matic2::before{
+  content: '';
+  width: 3rem;
+  height: 3rem;
+  background: #333;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 3.5rem;
+  margin-top: -1.1rem;
+}
+
+#edu-matic2::after{
+  content: '';
+  width: 1.8rem;
+  height: 1.8rem;
+  background: #FFF;
+  border-radius: 50%;
+  margin-left: 4.1rem;
+  margin-top: -0.5rem;
+  position: absolute;
+
+}
