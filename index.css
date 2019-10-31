@@ -3166,3 +3166,38 @@ a {
   background: saddlebrown;
   border-radius: 40%;
 }
+
+#thewhiteswan {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: linear-gradient(#ff8d00 55% 40%, transparent 50%),
+  radial-gradient(circle at 50% 55%, #000000 38% 38%, transparent 40%),
+  radial-gradient(circle at 50% 50%, #ff8d00 0 50%);
+  position: relative;
+}
+
+#thewhiteswan::after,
+#thewhiteswan::before {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 90px solid black;
+}
+
+#thewhiteswan::before {
+  top: 5px;
+  right: 60px;
+  transform: rotate(0deg) scale(0.4);
+}
+
+#thewhiteswan::after {
+  top: 5px;
+  left: 60px;
+  transform: rotate(0deg) scale(0.4);
+}
