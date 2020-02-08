@@ -11,6 +11,10 @@ a {
   color: #318997;
 }
 
+#sumaiya {
+  font-size: 116px;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -3288,7 +3292,6 @@ a {
   background: saddlebrown;
   border-radius: 40%;
 }
-<<<<<<< HEAD
 
 #SushilBajra11 {
     position: relative;
@@ -3351,6 +3354,7 @@ a {
   border-radius: 50%;
   margin-top: 55px;
 }
+
 #Frinlanz {
   width: 100px;
   height: 100px;
@@ -3486,7 +3490,6 @@ top: 69px;
     box-shadow: -20px 20px 0 0px #2F2F2F,
                 50px 20px 0 0px #2F2F2F;
 }
-=======
 #chintanpalan-1{
   position: relative;
   min-height: 100px;
@@ -3509,4 +3512,3 @@ top: 69px;
   -15px -26px 0 0 #000;
 }
 #chintanpalan-1::after{ transform: rotate(43deg) translateX(-23px) translateY(-8px); }
->>>>>>> fdb904ddef7b08f82727d44403f6767e4773bb93
