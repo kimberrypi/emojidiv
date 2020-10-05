@@ -1,0 +1,39 @@
+#deviouslab {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 166, 0, 0.76) 5%,
+    gold 60%,
+    yellow
+  );
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+}
+
+#deviouslab::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 43px;
+  width: 25px;
+  height: 35px;
+  background: #a76700;
+  border-radius: 50%;
+  box-shadow: 55px 0 #a76700;
+}
+
+#deviouslab::after {
+  content: "";
+  position: absolute;
+  width: 85px;
+  height: 40px;
+  top: 100px;
+  left: 40px;
+  background: linear-gradient(to bottom, #a76700 0%, #a76700 100%);
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
