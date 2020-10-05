@@ -1,0 +1,67 @@
+#mluis-45 {
+  display: block;
+  width: 146px;
+  height: 180px;
+  background-color: whitesmoke;
+  border-radius: 50% 50% 0% 0% / 50% 40% 70% 40%;
+  position: relative;
+}
+
+#mluis-45::before {
+  content: "";
+  height: 2.2em;
+  width: 1.7em;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-top: 30px;
+  display: inline-block;
+}
+#mluis-45::after {
+  content: "";
+  height: 2.2em;
+  width: 1.7em;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-top: 30px;
+  display: inline-block;
+}
+#mluis2 {
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  border-radius: 0% 50% 50% 50% / 50% 0% 50% 50%;
+  animation-name: boca;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+#mluis2::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  border-radius: 50%;
+  margin-top: -42px;
+  margin-left: 78px;
+}
+#mluis2::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  border-radius: 50%;
+  margin-top: -42px;
+  margin-left: 22px;
+}
+@keyframes boca {
+  from {
+    height: 40px;
+  }
+  to {
+    height: 67px;
+  }
+}
