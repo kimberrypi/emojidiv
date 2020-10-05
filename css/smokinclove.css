@@ -1,0 +1,136 @@
+#smokinclove {
+  background: /*start eye*/ radial-gradient(
+      ellipse at 29% 54%,
+      #f5d442 0 13%,
+      transparent 11%
+    ),
+    radial-gradient(ellipse at 28% 49%, #96660c 0 13%, transparent 13%),
+    /*right eye */
+      radial-gradient(ellipse at 72% 54%, #f5d442 0 15px, transparent 15px),
+    radial-gradient(ellipse at 73% 49%, #96660c 0 15%, #a6868600 13%)
+      /*end eye*/,
+    /*brow*/ radial-gradient(ellipse at 36% 47%, #f5d442 0 27%, transparent 12%),
+    radial-gradient(ellipse at 28% 39%, #96660c 0 14%, transparent 12%),
+    /*right brow*/
+      radial-gradient(ellipse at 64% 47%, #f5d442 0 27%, transparent 12%),
+    radial-gradient(ellipse at 72% 38%, #96660c 0 13%, transparent 13%)
+      /*end brow*/,
+    /* start of mouth*/
+      radial-gradient(
+        circle at 49% 12%,
+        #f5d442 0 58%,
+        #96660c 58% 61%,
+        white 61% 67%,
+        transparent 67%
+      ),
+    radial-gradient(circle at 50% 56%, #96660c 0 51%, transparent 45%)
+      /* end of mouth*/,
+    /* start face background*/ radial-gradient(circle at 50% 50%, #f5d442 0 50%);
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  transform: scale(1.2);
+}
+#smokinclove::before {
+  height: 40px;
+  width: 35px;
+  border-radius: 87% 13% 48% 52% / 59% 14% 86% 41%;
+  border: 2px solid black;
+  position: absolute;
+  content: "";
+  background: radial-gradient(circle at 50% 60%, white 0 1px, #47c0fc 15px);
+  transform: translate(-19px, 43px);
+}
+
+#smokinclove::after {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 35px;
+  border-radius: 26% 88% 48% 55% / 11% 57% 43% 89%;
+  background: radial-gradient(circle at 50% 60%, white 0 1px, #47c0fc 15px);
+  border: 2px solid black;
+  transform: translate(80px, 41px);
+}
+
+#smokinclove-sparkle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle at 30px 30px, red 0 30px, transparent 30px),
+    radial-gradient(circle at 68px 70px, red 0 30px, transparent 30px),
+    linear-gradient(45deg, red 0px 50px, transparent 50px),
+    radial-gradient(circle at 36px 75px, red 0 20px, transparent 20px);
+  transform: rotate(-45deg);
+}
+
+#smokinclove-sparkle::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 40px;
+  left: -14px;
+  background: radial-gradient(
+      circle at 0 0,
+      transparent 0 30%,
+      yellow 30% 38%,
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 95% 0,
+      transparent 0 30%,
+      yellow 30% 38%,
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 95% 93%,
+      transparent 0 30%,
+      yellow 30% 38%,
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 0% 93%,
+      transparent 0 30%,
+      yellow 30% 38%,
+      transparent 38%
+    ),
+    radial-gradient(circle at 48% 48%, yellow 0 34%, transparent 34%);
+  transform: rotate(45deg);
+}
+
+#smokinclove-sparkle::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 50px;
+  left: 75px;
+  background: radial-gradient(
+      circle at 0 0,
+      transparent 0 30%,
+      yellow 30% 38%,
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 95% 0,
+      transparent 0 30%,
+      yellow 30% 38%,
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 95% 93%,
+      transparent 0 30%,
+      yellow 30% 38%,
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 0% 93%,
+      transparent 0 30%,
+      yellow 30% 38%,
+      transparent 38%
+    ),
+    radial-gradient(circle at 48% 48%, yellow 0 34%, transparent 34%);
+  transform: rotate(45deg);
+}

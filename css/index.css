@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+@import url("./akankshach.css");
+@import url("./albertodeago.css");
+@import url("./aliheikal.css");
+@import url("./amyegan.css");
+@import url("./anjlapastora.css");
+@import url("./aolamide.css");
+@import url("./artoliukkonen.css");
+@import url("./azel.css");
+@import url("./biancapereira.css");
+@import url("./botticelli13.css");
+@import url("./caroldestreza.css");
+@import url("./cayeborreo.css");
+@import url("./charlygg.css");
+@import url("./chintanpalan-1.css");
+@import url("./CodeMeNatalie.css");
+@import url("./cristiand391.css");
+@import url("./derekramsey12.css");
+@import url("./divyT.css");
+@import url("./dominuskelvin.css");
+@import url("./Frinlanz.css");
+@import url("./gabszypogi.css");
+@import url("./garciajasminejoy.css");
+@import url("./grjw.css");
+@import url("./grsn_chml.css");
+@import url("./InsiyaK110.css");
+@import url("./jacobtyq.css");
+@import url("./JasaniDhruv.css");
+@import url("./jennifer.css");
+@import url("./jmsgbrl__.css");
+@import url("./jojonarte.css");
+@import url("./Jomar2019.css");
+@import url("./kate_gamo.css");
+@import url("./kimberrypi.css");
+@import url("./kjcpaas.css");
+@import url("./kuroyza.css");
+@import url("./louierosero.css");
+@import url("./luispinedajr.css");
+@import url("./maczokni.css");
+@import url("./majse.css");
+@import url("./mark_allen.css");
+@import url("./matheusagcosta.css");
+@import url("./matthewesp.css");
+@import url("./meowlivia.css");
+@import url("./michieriffic.css");
+@import url("./movingtothesun.css");
+@import url("./mplb0.css");
+@import url("./mrcaste.css");
+@import url("./Naivedh.css");
+@import url("./neetigyachahar.css");
+@import url("./noviandsh.css");
+@import url("./paulliamag.css");
+@import url("./phillipknight.css");
+@import url("./porchee.css");
+@import url("./quintanilhaedu.css");
+@import url("./rmasianjr.css");
+@import url("./sagar-pardhi.css");
+@import url("./sanderjson.css");
+@import url("./sanjpareek.css");
+@import url("./skelrilod.css");
+@import url("./smokinclove.css");
+@import url("./sumaiya.css");
+@import url("./SushilBajra11.css");
+@import url("./tzyinc.css");
+@import url("./valdeezzee.css");
+@import url("./vancass.css");
+@import url("./virus200.css");
+@import url("./vitebo.css");
+
+html,
+body {
+  font-family: sans-serif;
+  margin: 0;
+  line-height: 1.5;
+}
+
+a {
+  color: #318997;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  background-color: #25274d;
+  text-align: center;
+  color: white;
+  font-family: "Press Start 2P", Tahoma, sans-serif;
+}
+
+.message {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.message-body {
+  margin: 1rem;
+  padding: 0.25rem 1rem;
+  width: 100%;
+  background-color: #25274d1f;
+  border: 1px solid #4648661f;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+.container > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 30vh;
+  margin: 5px;
+  padding: 15px;
+  border: 1px solid #007a7c1f;
+  flex: 1;
+  min-width: 15rem;
+}
+
+.container > .emoji > div {
+  margin-bottom: 1rem !important;
+  align-self: center;
+}
+
+.container > div > p {
+  margin: auto 0 0;
+  font-size: small;
+  text-align: center;
+  width: 100%;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .message {
+    flex-direction: column;
+  }
+
+  .message-body {
+    width: auto;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .container > div {
+    width: auto;
+  }
+}

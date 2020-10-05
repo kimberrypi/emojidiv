@@ -1,0 +1,50 @@
+#kimberrypi {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-image: linear-gradient(white 1%, gold 50%, orange);
+  border-radius: 150px;
+  border: 2px solid orange;
+  position: relative;
+}
+
+#kimberrypi:before {
+  content: " ";
+  position: absolute;
+  width: 37px;
+  height: 8px;
+  background-color: saddlebrown;
+  box-shadow: 50px 0px 0 saddlebrown;
+  border-radius: inherit;
+  left: 30px;
+  bottom: 80px;
+  z-index: 1;
+}
+
+#kimberrypi:after {
+  content: " ";
+  width: 85px;
+  height: 8px;
+  background-color: saddlebrown;
+  border-radius: inherit;
+  position: absolute;
+  left: 30px;
+  bottom: 45px;
+  z-index: 1;
+}
+
+#kimberrypi-pride {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 0px 70px 0 0;
+  -moz-border-radius: 0 70px 0 0;
+  -webkit-border-radius: 0 70px 0 0;
+  position: relative;
+  margin-top: 75px;
+  margin-left: -45px;
+  box-shadow: 5px -5px 0 5px #af2fcf, 10px -10px 0 10px #1550d2,
+    15px -15px 0 15px #069534, 20px -20px 0 20px #fffa48,
+    25px -25px 0 25px #ffb22c, 30px -30px 0 30px #fb2223;
+}

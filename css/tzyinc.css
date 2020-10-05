@@ -1,0 +1,83 @@
+#tzyinc {
+  background: radial-gradient(ellipse at 0% 0%, #6a3b20 22px, 0, transparent)
+    24px 19px/100px 100px no-repeat;
+  width: 100px;
+  height: 100px;
+  transform: rotate(30deg);
+}
+
+#tzyinc:before {
+  content: " ";
+  background:
+      /*4th section*/ radial-gradient(
+        ellipse at 50px 13.5px,
+        #6a3b20 25px,
+        0,
+        transparent
+      ) -25px 57px/100px 45px no-repeat,
+    radial-gradient(ellipse at 50px 13.5px, #6a3b20 25px, 0, transparent) 8px
+      58px/100px 45px no-repeat,
+    /*3rd section*/
+      radial-gradient(ellipse at 50px 13.5px, #6a3b20 25px, 0, transparent) 5px
+      42px/100px 45px no-repeat,
+    radial-gradient(ellipse at 50px 13.5px, #6a3b20 25px, 0, transparent) -7px 42px/100px
+      45px no-repeat,
+    /*2nd section*/
+      radial-gradient(ellipse at 50px 13.5px, #6a3b20 25px, 0, transparent) 6px
+      29px/100px 45px no-repeat;
+  /*   background-size: 100px 50px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*   border-radius: 100px; */
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+  transform: translate(-5px, 0) rotate(-52.5deg);
+}
+
+#tzyinc:after {
+  content: " ";
+  background:
+      /*mouth*/ radial-gradient(
+        ellipse at 50% 0%,
+        white 17px,
+        0,
+        transparent
+      )
+      0px 74px/100px 28px no-repeat,
+    /*right eye*/
+      radial-gradient(
+        ellipse at 50% 50%,
+        black 5px,
+        0,
+        white 9px,
+        0,
+        transparent
+      )
+      55px 45px/19px 25px no-repeat,
+    /*left eye*/
+      radial-gradient(
+        ellipse at 50% 50%,
+        black 5px,
+        0,
+        white 9px,
+        0,
+        transparent
+      )
+      27px 45px/19px 25px no-repeat,
+    /*back body segment*/
+      radial-gradient(ellipse at 50px 13.5px, #6a3b20 25px, 0, transparent) 4px
+      66px/100px 41px no-repeat,
+    radial-gradient(ellipse at 50px 13.5px, #6a3b20 25px, 0, transparent) 19px
+      66px/100px 41px no-repeat;
+  /*   background-size: 100px 50px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*   border-radius: 100px; */
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+  transform: rotate(-30deg);
+}

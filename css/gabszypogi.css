@@ -1,0 +1,10 @@
+#gabszypogi {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-image: linear-gradient(white 1%, red 50%, orange);
+  border-radius: 150px;
+  border: 2px solid orange;
+  position: relative;
+}

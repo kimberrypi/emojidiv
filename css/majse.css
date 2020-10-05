@@ -1,0 +1,16 @@
+#majse {
+  box-shadow: 0 0 0 1em blue, 0 1em 0 1em blue, -2.5em 1.5em 0 0.5em blue,
+    2.5em 1.5em 0 0.5em blue, -3em -3em 0 0 blue, 3em -3em 0 0 blue,
+    -2em -2em 0 0 blue, 2em -2em 0 0 blue, -3em -1em 0 0 blue,
+    -2em -1em 0 0 blue, 2em -1em 0 0 blue, 3em -1em 0 0 blue, -4em 0 0 0 blue,
+    -3em 0 0 0 blue, 3em 0 0 0 blue, 4em 0 0 0 blue, -5em 1em 0 0 blue,
+    -4em 1em 0 0 blue, 4em 1em 0 0 blue, 5em 1em 0 0 blue, -5em 2em 0 0 blue,
+    5em 2em 0 0 blue, -5em 3em 0 0 blue, -3em 3em 0 0 blue, 3em 3em 0 0 blue,
+    5em 3em 0 0 blue, -2em 4em 0 0 blue, -1em 4em 0 0 blue, 1em 4em 0 0 blue,
+    2em 4em 0 0 blue;
+  background: blue;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  position: relative;
+}

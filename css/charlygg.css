@@ -1,0 +1,36 @@
+#charlygg {
+  position: relative;
+  margin-top: 20px;
+  width: 180px;
+  height: 100px;
+  border-radius: 3px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(218, 218, 218),
+    rgb(218, 218, 218) 20px,
+    0%,
+    rgb(51, 51, 51) 235px,
+    transparent 235px
+  );
+}
+
+#charlygg::before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 56px;
+  width: 68px;
+  height: 68px;
+  background: #111;
+  border-radius: 50%;
+  box-shadow: 0 0 0px 6px rgb(182, 182, 182);
+}
+
+#charlygg::after {
+  content: "";
+  position: absolute;
+  box-shadow: 13px 10px 0 6px rgb(248, 6, 6), 23px -3px 0 4px rgb(131, 130, 130),
+    28px -3px 0 4px rgb(131, 130, 130), 131px -3px 0 4px rgb(131, 130, 130),
+    138px -3px 0 4px rgb(131, 130, 130), 155px -3px 0 4px rgb(131, 130, 130),
+    162px -3px 0 4px rgb(131, 130, 130);
+}

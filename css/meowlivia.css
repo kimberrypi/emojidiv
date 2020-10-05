@@ -1,0 +1,51 @@
+#meowlivia {
+  width: 100px;
+  height: 100px;
+  background: #fdd835;
+  background-image: radial-gradient(
+      circle,
+      #fff 10%,
+      #fff 12%,
+      #000 12%,
+      #000000 25%,
+      #000000 40%,
+      white 30%,
+      white 50%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle,
+      #fff 10%,
+      #fff 12%,
+      #000 12%,
+      #000000 25%,
+      #000000 40%,
+      white 30%,
+      white 50%,
+      transparent 50%
+    ),
+    linear-gradient(#000, #000);
+  background-repeat: no-repeat;
+  background-size: 50px 50px, 50px 50px, 54px 6px;
+  background-position: 5px 20px, 45px 20px, 50% 70px;
+  border-radius: 50%;
+  position: relative;
+}
+
+#meowlivia:after {
+  content: "";
+  position: absolute;
+  left: 26px;
+  top: 72px;
+  width: 50%;
+  height: 30px;
+  background: linear-gradient(
+    to right,
+    #f43636 0%,
+    #ff9800 20%,
+    #ffeb3b 35%,
+    #7cff00 60%,
+    #00f3ff 78%,
+    #0012ff 100%
+  );
+}

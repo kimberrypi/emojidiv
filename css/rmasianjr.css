@@ -1,0 +1,33 @@
+#rmasianjr {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border-radius: 100%;
+  box-shadow: 2px 5px 10px #9aa5b1 inset;
+  background: linear-gradient(-135deg, black, #000000bf);
+}
+
+#rmasianjr::before {
+  content: "";
+  z-index: 2;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  width: 45px;
+  height: 20px;
+  background-color: #cb6e17;
+  box-shadow: 80px 0px 0 #cb6e17;
+  border-radius: 50%;
+}
+
+#rmasianjr::after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  bottom: 40%;
+  right: 5%;
+  left: 5%;
+  background-image: linear-gradient(to right, white 1%, gold 50%, orange);
+  border-radius: 80% / 50%;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.2);
+}

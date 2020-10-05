@@ -1,0 +1,25 @@
+#botticelli13 {
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid yellow;
+  border-left: 60px solid yellow;
+  border-bottom: 60px solid yellow;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  position: relative;
+}
+
+#botticelli13:before {
+  content: " ";
+  position: absolute;
+  left: 10px;
+  top: -50px;
+  width: 20px;
+  height: 20px;
+  background-color: #242424;
+  border-radius: inherit;
+  z-index: 1;
+}

@@ -1,0 +1,33 @@
+#mark_allen {
+  width: 160px;
+  height: 160px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to top, #f8aa0a 5%, #ffe730 70%, #fff);
+  border-radius: 50%;
+  box-shadow: inset 0 0 10px #fea901;
+}
+
+#mark_allen::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: -21px;
+  height: 20px;
+  width: 100%;
+  overflow: hidden;
+  background-image: linear-gradient(to right, #6c3200 56%, transparent 0%);
+  background-position: bottom;
+  background-size: 72px 8px;
+  background-repeat: repeat-x;
+}
+
+#mark_allen::after {
+  content: "";
+  position: absolute;
+  left: 42px;
+  bottom: 30px;
+  height: 20px;
+  width: 80px;
+  border-top: 9px solid #6c3200;
+}

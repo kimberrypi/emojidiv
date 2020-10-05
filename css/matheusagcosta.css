@@ -1,0 +1,41 @@
+#matheusagcosta {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 166, 0, 0.76) 5%,
+    gold 45%,
+    white
+  );
+  border-radius: 50%;
+  box-shadow: 0px -20px 19px rgba(208, 115, 4, 0.65) inset,
+    -10px -20px 19px rgba(208, 115, 4, 0.25) inset,
+    10px -20px 19px rgba(208, 115, 4, 0.25) inset,
+    0 6px 1px rgba(255, 163, 9, 0.44) inset,
+    3px 6px 1px rgba(255, 163, 9, 0.35) inset,
+    -3px 6px 1px rgba(255, 163, 9, 0.35) inset,
+    0 -2px 4px rgba(205, 111, 3, 0.95) inset;
+  position: relative;
+}
+
+#matheusagcosta::after,
+#matheusagcosta::before {
+  box-shadow: 0px 2px 9px #562100 inset;
+  position: absolute;
+  content: "";
+  top: 50px;
+  width: 20px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #a76700;
+}
+
+#matheusagcosta::after {
+  left: 45px;
+}
+
+#matheusagcosta::before {
+  right: 45px;
+}

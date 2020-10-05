@@ -1,0 +1,33 @@
+#amyegan {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  padding: 2rem;
+  background-color: gold;
+  border-radius: 50%;
+}
+
+#amyegan::before {
+  top: 50px;
+  left: 2.75rem;
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  width: 1.25rem;
+  height: 1.75rem;
+  background-color: black;
+  box-shadow: 3.75rem 0 0 black;
+}
+
+#amyegan::after {
+  top: 5.6rem;
+  left: 4.8rem;
+  position: absolute;
+  content: "3";
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+  background: none;
+}
