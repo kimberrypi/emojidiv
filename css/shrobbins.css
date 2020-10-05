@@ -1,0 +1,32 @@
+#shrobbins {
+  width: 100px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 30px;
+  background-image: linear-gradient(#ff7518 15%, #df5a00 50%, #ff6f00);
+  border-radius: 100px;
+  position: relative;
+}
+
+#shrobbins:before {
+  position: absolute;
+  content: "";
+  background-color: black;
+  top: 30px;
+  left: 34px;
+  padding: 13px;
+  box-shadow: 70px 0px 0px black;
+}
+
+#shrobbins:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 45px;
+  left: 64px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid black;
+  box-shadow: 0px 30px 0px black;
+}
