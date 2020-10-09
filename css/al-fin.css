@@ -1,0 +1,48 @@
+#al-fin {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-image: linear-gradient(
+      to top,
+      rgba(255, 166, 0, 0.76) 5%,
+      gold 45%,
+      white
+    );
+    border-radius: 50%;
+    box-shadow: 0px -20px 19px rgba(208, 115, 4, 0.65) inset,
+      -10px -20px 19px rgba(208, 115, 4, 0.25) inset,
+      10px -20px 19px rgba(208, 115, 4, 0.25) inset,
+      0 6px 1px rgba(255, 163, 9, 0.44) inset,
+      3px 6px 1px rgba(255, 163, 9, 0.35) inset,
+      -3px 6px 1px rgba(255, 163, 9, 0.35) inset,
+      0 -2px 4px rgba(205, 111, 3, 0.95) inset;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #al-fin::before {
+    box-shadow: 0px 0px 0 10px #562100, 50px 0px 0 10px #562100;
+    position: absolute;
+    content: "";
+    top: 50px;
+    left: 55px;
+    width: 4px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #562100;
+  }
+  
+  #al-fin::after {
+    position: absolute;
+    box-shadow: 0px 20px 0 10px rgba(171,226,210,1);
+    content: "";
+    top: 80px;
+    left: 18px;
+    width: 120px;
+    height: 70px;
+    border-radius: 40%;
+    border: 4px solid rgba(171,226,210,1);
+    background: linear-gradient(0deg, rgba(171,226,210,1) 0%, rgba(255,255,255,1) 100%);
+}
+  
