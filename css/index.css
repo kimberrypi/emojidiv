@@ -81,6 +81,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   line-height: 1.5;
+  background-color: #f5f6fa;
 }
 
 a {
@@ -112,7 +113,7 @@ a {
   width: 100%;
   background-color: #25274d1f;
   border: 1px solid #4648661f;
-  border-radius: 10px;
+  border-radius: 0.25rem;
 }
 
 .container {
@@ -130,9 +131,12 @@ a {
   min-height: 30vh;
   margin: 5px;
   padding: 15px;
-  border: 1px solid #007a7c1f;
+  border: none;
   flex: 1;
   min-width: 15rem;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 2px #007a7c1f;
 }
 
 .container > .emoji > div {
