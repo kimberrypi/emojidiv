@@ -1,0 +1,173 @@
+@import url('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+/*@import url("http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");*/
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Arial", sans-serif;
+	list-style: none;
+	text-decoration: none;
+	/*reload*/
+}
+
+body{
+	background: pink;
+}
+
+.card{
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	/*reload*/
+	background: #f1f1f1;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	/*reload*/
+	box-shadow: 0 0 10px black;
+}
+
+.card-header{
+	position: relative;
+	height: 350px;
+	/*reload*/
+	overflow: hidden;
+}
+
+.card-header img{
+	height: 100%;
+	background: black;
+	/*reload*/
+}
+
+.card-header .cover{
+	position: absolute;
+	top: 0;
+	background: pink;
+	opacity: .1;
+	width: 100%;
+	height: 100%;
+}
+
+/*GAK PENTING*/
+.card-header .menu{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	display: flex;
+	/*align-items: center;*/
+	color: white;
+	opacity: .8;
+	/*reload*/
+	cursor: pointer;
+	/*reload*/
+}
+/**/
+
+.card-header .menu span{
+	font-size: 32px;
+}
+
+.card-header .menu ul{
+	background: black;
+	padding: 6px 0;
+	margin: 25px -20px;
+	display: none;
+	box-shadow: 0 0 10px white;
+}
+
+.card-header .menu ul li{
+	width: 100px;
+	text-align: left;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.card-header .menu ul li a{
+	color: #e9e2df;
+	font-size: 15px;
+	float: right;
+	margin-left: 15px;
+	text-decoration: none;
+}
+
+.card-header .menu:hover > ul{
+	display: block;
+}
+
+.card-header .loc{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	color: white;
+}
+
+.card-header .first{
+	display: block;
+	font-size: 25px;
+	opacity: .5;
+}
+
+.card-header .last{
+	display: block;
+	font-size: 36px;
+	opacity: .5;
+}
+
+.container{
+	padding: 20px;
+	overflow: hidden;
+}
+
+.left-section{
+	width: 260px;
+	overflow: hidden;
+	float: left;
+}
+
+.left-section h3{
+	font-size: 20px;
+	color: blue;
+}
+
+.left-section p{
+	margin: 20px 0;
+}
+
+.left-section .btn-follow{
+	width: 100%;
+	background: blue;
+	color: white;
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: bold;
+	display: block;
+	padding: 10px 0;
+	transition: 0.2s all;
+	text-decoration: none;
+}
+
+.left-section .btn-follow:hover{
+	background: pink;
+	color: blue;
+}
+
+.right-section{
+	overflow: hidden;
+	float: right;
+	text-align: center;
+}
+
+.item{
+	margin: 6px 0;
+}
+
+.numb{
+	font-weight: bold;
+	display: block;
+	font-size: 30px;
+}
+
+.word{
+	font-size: 16px;
+}
