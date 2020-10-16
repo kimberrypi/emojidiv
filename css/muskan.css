@@ -1,0 +1,30 @@
+#muskan-9 {
+    position: absolute;
+    left: 48%;
+    top: 5%;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle at 30px 30px, #f542a1 0 30px, transparent 30px),
+      radial-gradient(circle at 68px 70px, #f542a1 0 30px, transparent 30px),
+      linear-gradient(45deg, #f542a1 0px 50px, transparent 50px),
+      radial-gradient(circle at 36px 75px, #f542a1 0 20px, transparent 20px);
+    transform: rotate(-45deg);
+  }
+
+  #muskan-9::before, #muskan-9::after{
+    content: "";
+    position: absolute;
+    top: 48px;
+    left: 95px;
+  width: 55px;
+  height: 55px;
+  background:
+   radial-gradient(circle at 60% 65%, #f542a1 64%, transparent 65%) top left,
+   radial-gradient(circle at 40% 65%, #f542a1 64%, transparent 65%) top right,
+   linear-gradient(to bottom left, #f542a1 43%,transparent 43%) bottom left ,
+   linear-gradient(to bottom right,#f542a1 43%,transparent 43%) bottom right;
+   transform: rotate(45deg);
+  background-size:50% 50%;
+  background-repeat:no-repeat;
+  display:inline-block;
+  }
