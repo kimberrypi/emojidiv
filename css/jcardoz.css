@@ -1,0 +1,19 @@
+#jcardoz {
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+    background: rgb(183, 206, 223);
+    background: linear-gradient(180deg, rgb(183, 206, 223) 19%, rgb(78, 113, 146) 68%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 5px solid rgb(78, 113, 146);
+    border-radius: 20%;
+    font-weight: bold;
+    font-size: 150px;
+    font-family: Segoe UI, Arial, sans-serif;
+    line-height: 1;
+}
+
+#jcardoz::before {
+    content: "7";
+}
