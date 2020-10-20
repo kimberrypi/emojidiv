@@ -1,0 +1,36 @@
+#miguelmml {
+  font-size: 1em;
+  width: 6em;
+  height: 6em;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+  border: 0.7em solid black;
+  border-radius: 50%;
+  background-color: rgb(255, 200, 61);
+}
+
+#miguelmml::after {
+  content: " ";
+  position: absolute;
+  width: 1.5em;
+  height: 2.4em;
+  background-color: black;
+  box-shadow:  3.5em 0 0 black, 1.8em 3.8em 0 -.6em rgba(0, 0, 0, 0.172),  1.8em 4.9em 0 -.6em rgba(0, 0, 0, 0.172), 1.8em 5em 0 .6em crimson;
+  border-radius: 1em;
+  top: 2.5em;
+  left: 2.5em;
+  z-index: 1; 
+}
+
+#miguelmml::before{
+  content: "";
+  position: absolute;
+  width: 5em;
+  height: 2.5em;
+  background-color: black;
+  top: 6.3em;
+  left: 2.5em;
+  border-bottom-left-radius: 3em;
+  border-bottom-right-radius: 3em;
+}
