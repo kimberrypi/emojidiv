@@ -1,0 +1,32 @@
+#kkritii {
+  width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	background: #fdd017;
+	border-radius: 50%;
+	position: relative;
+}
+
+#kkritii:before {
+  width: 20px;
+  height: 20px;
+  content: " ";
+  background-color: #38101c;
+  box-shadow: 50px 0px 0 #38101c;
+  border-radius: inherit;
+  left: 40px;
+  top: 50px;
+  position: absolute;
+}
+
+#kkritii:after {
+  width: 70px;
+  height: 35px;
+  content: "";
+  background: #521f2e;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  bottom: 20px;
+  left: 40px;
+  position: absolute;
+}
