@@ -1,0 +1,26 @@
+#PakkuDon {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+#PakkuDon::before {
+  content: ' ';
+  position: absolute;
+  border: 10px solid #bebebe;
+  border-radius: 100%;
+  width: 50px;
+  height: 60px;
+  left: 15px;
+}
+
+#PakkuDon::after {
+  content: ' ';
+  position: absolute;
+  width: 80px;
+  height: 60px;
+  background: linear-gradient(90deg, #fac70b, #f4990d);
+  border-radius: 2px;
+  top: 40px;
+  left: 10px;
+}
