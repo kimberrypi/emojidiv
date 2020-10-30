@@ -1,0 +1,31 @@
+#katrina {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    padding: 3em;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(255,179,0,1) 0%, rgba(241,255,0,1) 32%, rgba(249,250,74,1) 66%, rgba(104,245,248,1) 75%, rgba(0,185,255,1) 100%);
+}
+
+#katrina::before {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #6d4400;
+    border-radius: 50%;
+    background-color: #6d4400;
+    box-shadow: 70px 0px 0 #6d4400;
+    margin-top: 8px;
+}
+
+#katrina::after {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    margin-top: 95px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 0px -23px 0 #6d4400;
+}
