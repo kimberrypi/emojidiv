@@ -1,0 +1,78 @@
+#karnik{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    background-color: #feca3e;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 30px 30px 35px rgba(0,0,0,0.25);
+}
+
+#karnik::before,
+#karnik::after {
+    content: "";
+    height: 28px;
+    width: 20px;
+    background-color: black;
+    position: absolute;
+    box-shadow: 0 - 6px #4d2e08;
+    border-radius: 50%;
+    top: 35px;
+}
+
+#karnik:before{
+    left: 45px;
+}
+
+#karnik:after{
+    left: 99px;
+}
+
+.mask{
+    height: 60px;
+    width: 110px;
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    z-index: 0;
+    border-radius: 5px 5px 50% 50%;
+}
+
+.mask::before,
+.mask::after{
+    content: "";
+    width: 300px;
+    height: 6px;
+    background-color: white;
+    position: absolute;
+    z-index: -1;
+}
+
+.mask::before{
+    transform: rotate(-20deg);
+    right: -51px;
+    top: 33px;
+}
+
+.mask::after{
+    transform: rotate(20deg);
+    left: -51px;
+    top: 33px;
+}
+
+.details{
+    height: 10px;
+    width: 80px;
+    background-color: #bef4f1;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 10px;
+    border-radius: 0 0 50% 50%;
+    box-shadow: 0 25px #bef4f1;
+}
