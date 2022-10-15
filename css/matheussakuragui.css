@@ -1,0 +1,38 @@
+#matheussakuragui {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-image: linear-gradient(
+      gold 90%,
+      yellow
+    );
+    border-radius: 50%;
+    border: 4px solid black;
+    position: relative;
+  }
+  
+  #matheussakuragui::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 50px;
+    height:5px;
+    background: black;
+    border-radius: 100%;
+    box-shadow: 55px 0 black;
+  }
+  
+  #matheussakuragui::after {
+    content: "";
+    position: absolute;
+    width: 85px;
+    height: 4px;
+    top: 130px;
+    left: 40px;
+    background: black;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+  
