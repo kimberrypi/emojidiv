@@ -2,7 +2,7 @@
     position: relative;
     width: 30px;
     height: 30px;
-    box-shadow:  35px 100px 0 0px purple;
+    box-shadow: 0px 100px 0 0px purple;
     border-radius: 50%;
 
 }
@@ -10,7 +10,7 @@
 #gabyvictoria:after {
     position: absolute;
     content: "";
-    left: 50px;
+    left: 15px;
     top: 0;
     width: 50px;
     height: 80px;
@@ -20,7 +20,7 @@
     transform-origin: 0 100%;
 }
 #gabyvictoria:after {
-    left: 0;
+    left: -35px;
     transform: rotate(45deg);
     transform-origin: 100% 100%;
     ;
