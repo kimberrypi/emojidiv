@@ -1,0 +1,27 @@
+#gabyvictoria{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    box-shadow: 0px 100px 0 0px purple;
+    border-radius: 50%;
+
+}
+#gabyvictoria:before,
+#gabyvictoria:after {
+    position: absolute;
+    content: "";
+    left: 15px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: purple;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+#gabyvictoria:after {
+    left: -35px;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+    ;
+}
