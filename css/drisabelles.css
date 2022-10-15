@@ -1,0 +1,43 @@
+#drisabelles {
+  background: pink;
+  width: 120px; 
+  height: 160px; 
+  border-radius: 100% 100% 0 0;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+#drisabelles::before{
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 75px;
+  border-radius: 10% 10% 50% 50% / 20% 20% 80% 80%;
+  left: 25px;
+  top: 75px;
+  box-shadow: -10px 20px 0 0px black, 10px 20px 0 0px black;
+  background-repeat: repeat-x;
+  background: 
+    linear-gradient(-45deg, transparent 75%, pink 75%) 0 50%,
+    linear-gradient(45deg, transparent 75%, pink 75%) 0 50%;
+  background-size: 20px 20px, 20px 20px;
+}
+
+#drisabelles::after{
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 15px;
+  border-radius: 50%;
+  left: 35px;
+  top: 40px;
+  box-shadow: -20px 20px 0 0px black, 50px 20px 0 0px black;
+  background-repeat: repeat-x;
+  background: 
+    linear-gradient(-45deg, transparent 75%, pink 75%) 0 50%,
+    linear-gradient(45deg, transparent 75%, pink 75%) 0 50%;
+  background-size: 20px 20px, 20px 20px;
+}
+
+
