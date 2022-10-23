@@ -1,7 +1,6 @@
 /* Pixel size: 8px */
 #romeiro,
-#romeiro::after,
-#romeiro::before {
+#romeiro::after {
   width: 8px;
   height: 8px;
   content: '';
